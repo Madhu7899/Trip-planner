@@ -1,4 +1,5 @@
 Django>=5.2,<6.0
 gunicorn
+whitenoise==6.12.0
 asgiref
 sqlparse
