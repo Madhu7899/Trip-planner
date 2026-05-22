@@ -10,7 +10,11 @@ SECRET_KEY = "django-insecure-change-this-secret-key-before-deployment"
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "trip-planner-upln.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
